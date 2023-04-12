@@ -3,7 +3,7 @@ function verificarSuma () {
     document.getElementById("resultado").innerHTML = resultadoSuma;
     
     if (resultadoSuma % 1 != 0) {
-        document.getElementById("resultado").innerHTML = resultadoSuma.toFixed(4);
+        document.getElementById("resultado").innerHTML = resultadoSuma.toFixed(2);
     }
 }
 
@@ -12,7 +12,7 @@ function verificarResta () {
     document.getElementById("resultado").innerHTML = resultadoResta;
 
     if (resultadoResta % 1 != 0) {
-        document.getElementById("resultado").innerHTML = resultadoResta.toFixed(4);
+        document.getElementById("resultado").innerHTML = resultadoResta.toFixed(2);
     }
 }
 
@@ -21,7 +21,7 @@ function verificarMultiplicar () {
     document.getElementById("resultado").innerHTML = resultadoMultiplicar;
 
     if (resultadoMultiplicar % 1 != 0) {
-        document.getElementById("resultado").innerHTML = resultadoMultiplicar.toFixed(4);
+        document.getElementById("resultado").innerHTML = resultadoMultiplicar.toFixed(2);
     }
 }
 
@@ -30,7 +30,7 @@ function verificarDividir () {
     document.getElementById("resultado").innerHTML = resultadoDividir;
 
     if (resultadoDividir % 1 != 0) {
-        document.getElementById("resultado").innerHTML = resultadoDividir.toFixed(4);
+        document.getElementById("resultado").innerHTML = resultadoDividir.toFixed(2);
     }
 }
 
